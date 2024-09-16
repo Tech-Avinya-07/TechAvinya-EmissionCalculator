@@ -20,9 +20,16 @@ Installation and Setup:
 Step 1: Clone the repository
 ----git clone <repository_url>
 
-Step 2: Activate the Virtual Environment
-Activate the pre-configured virtual environment from the folder.
+Step 2: create the Virtual Environment
+----python3 -m venv env
 ----.\env\Scripts\activate
 
-Step 4: Run the main.py Script
+
+Step 3: Install Dependencies
+pip install -r requirements.txt
+
+step4 :Modify just the Input File dir
+
+
+Step 5: Run the main.py Script
 ----python main.py
